@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Menu</title>
+
+
+<h1 style="font-size: 20px; float: right;"> Log in </h1>
+<h1 style="font-size:250%;" > Logo </h1>
+
+
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff1a1a;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.column {
+  float: left;
+  width: 55.55%;
+  padding: 10px;
+  height: 300px;
+  margin: 10px;
+}
+
+.column2 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+  margin: 10px;
+}
+
+.column3 {
+  float: left;
+  width: 21.12%;
+  padding: 10px;
+  height: 176px;
+  margin: 10px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#inicio">Inicio</a></li>
+  <li><a href="#eventos">Eventos</a></li>
+  <li><a href="#talleres">Talleres</a></li>
+  <li><a href="#recorridos">Recorridos</a></li>
+  <li><a href="#contacto">Contacto</a></li>
+  <li style="float:right"><a class="active" href="#acerca de">Acerca de</a></li>
+</ul>
+
+<h2>Apertura</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#e6f2ff;">
+    <h2>Fotos de los eventos</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column2" style="background-color:#bbb;">
+    <h2>Calendario</h2>
+    <p>Some text..</p>
+  </div>
+
+
+  <div class="gallery">
+  <a target="_blank" href="Evento1.jpg">
+    <img src="Evento1.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">Noticia...</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="Evento 2.jpg">
+    <img src="Evento 2.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Noticia...</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="Evento 3.jpg">
+    <img src="Evento 3.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">Noticia...</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="Evento 4.jpg">
+    <img src="Evento 4.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Noticia...</div>
+</div>
+
+
+</div>
+</body>
+</html>
+
